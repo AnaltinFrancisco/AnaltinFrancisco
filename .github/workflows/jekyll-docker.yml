@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Produto de Exemplo</title>
+</head>
+<body>
+  <h1>Produto de Exemplo</h1>
+  <p>Descrição do produto
+  <p>Preço: $19.99</p>
+  
+  <!-- Botão para adicionar ao carrinho -->
+  <button id="adicionar-ao-carrinho">Adicionar ao Carrinho</button>
+
+  <script>
+    // Função para adicionar ao carrinho
+    document.getElementById('adicionar-ao-carrinho').addEventListener('click', function() {
+      alert('Produto adicionado ao carrinho. Vá para o carrinho para concluir a compra.');
+    });
+  </script>
+</body>
+</html>
